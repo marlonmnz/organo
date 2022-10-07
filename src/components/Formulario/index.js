@@ -5,17 +5,8 @@ import Botao from "../Botao";
 import { useState } from "react";
 
 const Formulario = (props) => {
-  const times = [
-    'Programação',
-    'Front-End',
-    'Data science',
-    'Devops',
-    'UX e Design',
-    'Mobile',
-    'Inovação e Gestão',
-  ]
 
-  const sorted = times.sort();
+  const sorted = props.times.sort();
 
   const [nome, setNome] = useState('');
   const [cargo, setCargo] = useState('');

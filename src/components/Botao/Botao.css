@@ -4,9 +4,10 @@
   border-radius: 10px;
   color: #fff;
   cursor: pointer;
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
   font-weight: 700;
-  padding: 32px;
+  padding: 29px;
 }
 
 .botao:hover{
